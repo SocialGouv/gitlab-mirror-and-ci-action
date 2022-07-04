@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Mirror + trigger CI
-      uses: SvanBoxel/gitlab-mirror-and-ci-action@master
+      uses: SocialGouv/gitlab-mirror-and-ci-action@master
       with:
         args: "https://gitlab.com/<namespace>/<repository>"
       env:
