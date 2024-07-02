@@ -9,6 +9,7 @@ LABEL "repository"="https://github.com/SvanBoxel/gitlab-mirror-and-ci-action"
 LABEL "homepage"="https://github.com/SvanBoxel/gitlab-mirror-and-ci-action"
 LABEL "maintainer"="Sebass van Boxel <hello@svboxel.com>"
 
+ENV	FOLLOW_TAGS=true
 
 COPY entrypoint.sh /entrypoint.sh
 COPY cred-helper.sh /cred-helper.sh
